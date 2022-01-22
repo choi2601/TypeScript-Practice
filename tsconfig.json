@@ -1,0 +1,21 @@
+{
+    "include": [
+        "src/**/*.ts" //src 폴더 내에 있는 하위 파일에 모두 해당 설정을 적용
+    ],
+    "exclude": [
+        "node_modules" // Typescript로 컴파일 시 node_modules는 제외
+    ],
+    "compilerOptions": { // 실제 컴파일 시 참조되는 옵션
+        "module": "es6",
+        "rootDir": "src",
+        "outDir": "dist",
+        "target": "es5",
+        "lib": [
+            "es2015",
+            "Dom"
+        ],
+        "sourceMap": true, // 브라우저에서 source를 확인할 때 원본 ts 파일을 보여줌
+        "removeComments": true,
+        "noImplicitAny": true, // Parameter implicity has an 'any' type => any type 방지
+    }
+}

@@ -1,4 +1,4 @@
-#TypeScript 요약 정리
+# TypeScript 요약 정리
 
 ### Chapter 1
 

@@ -1,4 +1,4 @@
-export default function add(a, b) {
+export default function add(a: number, b:number) {
     return a + b;
 }
 

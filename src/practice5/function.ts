@@ -32,4 +32,6 @@ function store(type: "통조림" | "아이스크림") {
 }
 
 const s = store('통조림');
-s.a
+s.a 
+const x = store('아이스크림');
+s.b

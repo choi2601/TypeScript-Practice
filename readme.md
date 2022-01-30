@@ -17,3 +17,8 @@
 3. tsc hello.ts --lib es2015,dom: 별 다른 라이브러리 추가 없이 전체를 추가
 4. tsc hello.ts --target es6 --lib es2015,dom --module commonjs: node 런타임 실행 시 최신 라이브러리 및 문법으로 동작되도록 해줌
 5. tsc hello.ts --target es6 --lib es2015,dom --module commonjs --showConfig: 매번 컴파일 옵션을 작성할 필요 없이 Typescript 옵션을 지정할 수 있음(tsconfig.json) => 이에 대한 옵션을 볼 수 있게 해주는 명령어
+
+### chapter 3
+
+1. 상위 타입은 하위 타입의 변수에 할당할 수 있음
+2. new 연산자를 사용한다면 원시 타입 값으로 바뀌는 것이 아니라 객체 타입
